@@ -31,14 +31,14 @@ namespace ce103_hw3_library_lib
                 if (i == SelectedIndex)
                 {
                     prefix = ">";
-                    Console.ForegroundColor = ConsoleColor.Black;
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
                     Console.BackgroundColor = ConsoleColor.White;
                 }
                 else
                 {
                     prefix = "  ";
                     Console.ForegroundColor = ConsoleColor.White;
-                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.BackgroundColor = ConsoleColor.DarkRed;
                 }
 
                 Console.WriteLine($"{prefix}{currentOption}");

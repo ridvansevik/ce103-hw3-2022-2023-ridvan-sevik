@@ -56,7 +56,7 @@ namespace ce103_hw3_library_lib
             book.Categories.Add(Console.ReadLine());
             Console.WriteLine("Please enter the book edition: ");
             book.Edition = Console.ReadLine();
-            Console.WriteLine("Please enter the book given: ");
+            Console.WriteLine("Please enter the book given date: ");
             book.Given = Console.ReadLine();
 
 
