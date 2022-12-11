@@ -122,7 +122,7 @@ namespace ce103_hw3_library_lib
 
             //delet.Id = Convert.ToInt32(Console.ReadLine());
 
-            FileUtility.DeleteBlock(delet.Id, Book.BOOK_DATA_BLOCK_SIZE, filename);
+            FileUtility.DeleteBlock(numberofthebook, Book.BOOK_DATA_BLOCK_SIZE, filename);
 
             runmenu.Start();
 
